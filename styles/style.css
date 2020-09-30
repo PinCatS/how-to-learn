@@ -64,10 +64,7 @@
   right: 0;
   width: 765px;
   height: 608px;
-  background-image: url('../images/header-image.png');
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: right bottom;
+  background: url('../images/header-image.png') no-repeat right bottom/contain;
 }
 
 .header__square-pic {
@@ -189,7 +186,44 @@
   margin: 0;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.feinman {
+  position: relative;
+  height: 790px;
+  background: url('../images/feynman.png') no-repeat left bottom;
+  text-align: center;
+}
+
+.feinman_space_top {
+  margin-top: 100px;
+}
+
+.feinman__title {
+  width: 648px;
+  margin-top: 0;
+  margin-bottom: 70px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 500;
+}
+
+.feinman__subtitle {
+  display: inline;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feinman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  text-decoration: none;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
 .table__cell_theme_dark {
   width: 200px;
   color: white;
