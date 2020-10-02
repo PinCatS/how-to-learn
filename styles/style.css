@@ -292,15 +292,15 @@
   flex-direction: column;
 }
 
-.footer__columns_content_copyright {
+.footer__column_content_copyright {
   justify-content: space-between;
 }
 
-.footer__columns_content_info {
+.footer__column_content_info {
   flex-basis: auto;
 }
 
-.footer__columns_content_social {
+.footer__column_content_social {
   flex-basis: auto;
 }
 
