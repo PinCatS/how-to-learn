@@ -128,9 +128,20 @@
   padding-bottom: 100px;
 }
 
+.digits__section-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.digits__section-subtitle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section-title {
   width: 60%;
-  margin: 0 auto 20px auto;
+  margin-top: 0;
+  margin-bottom: 20px;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -143,7 +154,8 @@
 
 .section-subtitle {
   width: 60%;
-  margin: 0 auto;
+  margin-top: 0;
+  margin-bottom: 0;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -239,6 +251,16 @@
 .kaufman_theme_dark {
   z-index: -2;
   background-color: #1f1f1f;
+}
+
+.kaufman__section-title {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kaufman__section-subtitle {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .kaufman__triangle {
